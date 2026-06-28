@@ -5,7 +5,7 @@ import { cn } from '../../utils/cn';
 
 const Sidebar = () => {
   const { sessions, currentSessionId, createSession, deleteSession, setCurrentSession } = useChatStore();
-  const { showAbout, setShowAbout } = useSettingsStore();
+  const { setShowAbout } = useSettingsStore();
 
   return (
     <div className="w-[280px] bg-secondary/50 border-r border-border flex flex-col backdrop-blur-sm">
