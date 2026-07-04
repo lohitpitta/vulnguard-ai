@@ -21,6 +21,15 @@ https://perceptive-purpose-production.up.railway.app/
 * Vite
 * Railway
 
+## Agent Architecture for VulnGuard AI
+
+- CVE Agent: Fetches vulnerability information.
+- Analysis Agent: Analyzes the severity and risk.
+- Report Agent: Generates the final report.
+- Coordinator Agent: Manages the workflow between agents.
+
+"This folder demonstrates the conceptual multi-agent architecture of VulnGuard AI and is not part of the production Flask backend."
+
 ## Caution
 
 ⚠ If the AI stops responding or stops in the middle of a response, simply type:
