@@ -30,6 +30,13 @@ https://perceptive-purpose-production.up.railway.app/
 
 "This folder demonstrates the conceptual multi-agent architecture of VulnGuard AI and is not part of the production Flask backend."
 
+## Agent Responsibilities
+
+- **Coordinator Agent**: Manages the workflow between agents.
+- **CVE Retrieval Agent**: Collects vulnerability information from CVE sources.
+- **Analysis Agent**: Determines severity, impact, and recommendations.
+- **Report Agent**: Generates the final vulnerability report for the user.
+
 ## Caution
 
 ⚠ If the AI stops responding or stops in the middle of a response, simply type:
